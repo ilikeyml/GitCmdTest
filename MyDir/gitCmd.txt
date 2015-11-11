@@ -1,2 +1,6 @@
 $ git config --global user.name "Your Name"
 $ git config --global user.email "email@example.com"
+$ git clone https://github.com/jquery/jquery.git
+$ git push --all origin
+$ git add MyDir/gitCmd.txt
+$ git commit -m "commit message"
