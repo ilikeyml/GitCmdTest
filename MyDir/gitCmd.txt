@@ -5,3 +5,4 @@ $ git push --all origin
 $ git add MyDir/gitCmd.txt
 $ git commit -m "commit message"
 #Last Add
+#New Added By Pycharm
