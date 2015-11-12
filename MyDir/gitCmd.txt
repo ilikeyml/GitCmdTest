@@ -7,4 +7,12 @@ $ git commit -m "commit message"
 #Last Add
 #New Added By Pycharm
 Hello
+//git 删除远程分支
 $ git branch -a
+git branch -r -d origin/branch-name
+
+不成功，发现只是删除的本地对该远程分支的track，正确的方法应该是这样：
+
+git push origin :branch-name
+
+冒号前面的空格不能少，原理是把一个空分支push到server上，相当于删除该分支。
